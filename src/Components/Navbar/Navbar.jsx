@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import logo from "../../assets/Navbar/logo1.png";
+import logo2 from "../../assets/Navbar/logo2.png";
 import { IoCall, IoMenu, IoClose } from "react-icons/io5";
 import { motion } from "framer-motion";
+import { Link as ScrollLink } from "react-scroll";
 
 const navMenu = [
   { id: 1, title: "Home", path: "/", delay: 0.1 },
@@ -30,16 +31,16 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="overflow-hidden bg-white2 relative">
+    <nav className="overflow-hidden bg-white2 relative mt-[-18px]">
       <div className="container flex justify-between items-center font-leagueGothic">
         {/* Logo section */}
         <motion.img
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.5 }}
-          src={logo}
+          src={logo2}
           alt="Logo"
-          className="w-[180px] relative top-5"
+          className="w-[100px] mb-5 relative top-5"
         />
 
         {/* Menu section for larger screens */}

@@ -66,7 +66,6 @@ const Menu = () => {
 
   return (
     <div className="overflow-x-hidden bg-white2">
-      <Navbar />
       <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-20 py-12">
         <h1 className="text-4xl md:text-5xl font-semibold mb-8 text-center text-mustard">
           Our Menu
