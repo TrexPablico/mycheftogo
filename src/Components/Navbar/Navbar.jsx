@@ -8,7 +8,7 @@ import { Link as ScrollLink } from "react-scroll";
 const navMenu = [
   { id: 1, title: "Home", path: "/", delay: 0.1 },
   { id: 2, title: "About", path: "/about", delay: 0.2 },
-  { id: 3, title: "Menu", path: "/menu", delay: 0.3 },
+  { id: 3, title: "Gallery", path: "/menu", delay: 0.3 },
   { id: 4, title: "Services", path: "/services", delay: 0.4 },
   { id: 5, title: "Contact", path: "/contact", delay: 0.5 },
 ];

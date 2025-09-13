@@ -4,7 +4,6 @@ import Navbar from "../Navbar/Navbar";
 const PopUpCarts = () => {
   return (
     <>
-      <Navbar />
       <div className="min-h-screen flex flex-col items-center justify-center bg-white2 px-6">
         <h1 className="text-4xl font-bold text-mustard mb-6">
           Pop-up Food Carts

@@ -1,19 +1,20 @@
 import React from "react";
-import hero2 from "../../../assets/Hero/hero2.png";
+import hero3 from "../../../assets/Hero/hero3.jpg";
 
 const Hero = () => {
   return (
-    <div className="relative w-full h-[60vw] sm:h-[50vh] md:h-[60vw] lg:h-[34vw] rounded-md overflow-hidden mt-0 mb-8">
+    <div className="relative w-full h-screen overflow-hidden">
       {/* Background Image */}
       <img
-        src={hero2}
+        src={hero3}
         alt="Hero background"
-        className="absolute inset-0 w-full h-full object-cover"
+        className="absolute inset-0 w-full h-full object-cover bg-fixed"
+        style={{ opacity: 0.7 }}
       />
 
       {/* Overlay Content */}
-      <div className="relative z-10 flex items-center h-full px-6 sm:px-12 md:px-20">
-        <div className="max-w-md md:max-w-xl lg:max-w-2xl">
+      <div className="relative z-10 flex items-center justify-center h-full px-6 sm:px-12 md:px-20">
+        <div className="max-w-md md:max-w-xl lg:max-w-2xl text-center lg:text-left">
           {/* Headline split into two lines */}
           <h2 className="text-[20px] text-white sm:text-2xl md:text-5xl lg:text-6xl font-semibold leading-snug">
             Catering, Food Trays,

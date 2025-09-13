@@ -42,31 +42,6 @@ const About = () => {
             chefs to entrepreneurs, we opened our own kitchen commissary.
           </p>
 
-          <p className="text-gray-700 mb-4 leading-relaxed">
-            Today, we provide top-tier event catering, all-in catering packages,
-            gourmet food trays, premium packed meals, and a consultancy firm for
-            restaurant developments and fixer-uppers. By applying the
-            <span className="italic">
-              {" "}
-              EOS Entrepreneurial Operating System
-            </span>
-            , we guarantee to{" "}
-            <span className="font-semibold">
-              Innovate Flavors, Scale Profits, and Lead Success.
-            </span>
-          </p>
-
-          <p className="text-gray-700 mb-6 leading-relaxed">
-            Whether it's a private celebration, corporate function, intimate
-            gathering, or full restaurant development, we take care of
-            everything so you can enjoy the moment, stress-free.
-            <span className="font-semibold">
-              {" "}
-              Delicious food, seamless service, and profitable food businesses,
-            </span>
-            that’s our commitment.
-          </p>
-
           <button className="px-6 py-3 bg-mustard text-white font-medium rounded-lg shadow-md hover:opacity-90 transition">
             Learn More
           </button>

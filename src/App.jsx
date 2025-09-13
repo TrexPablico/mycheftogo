@@ -31,7 +31,6 @@ function App() {
                 <Hero />
                 <About />
                 <Services />
-                <Gallery />
                 <Questions />
                 <Contact />
                 <Footer />

@@ -53,14 +53,7 @@ const Contact = () => {
               celebration, our expert team is here to provide top-notch catering
               services that will leave your guests delighted.
             </p>
-            <p className="text-gray-600 mb-4">
-              At My Chef To Go, we offer expert restaurant consulting services
-              to bring your culinary vision to life. From concept development to
-              efficient kitchen design and menu creation, we provide tailored
-              solutions to meet your needs. Let us help you create a dining
-              experience that stands out and thrives in today’s competitive
-              market.
-            </p>
+
             <p className="text-gray-600 flex items-center mb-2">
               <IoMail className="mr-2" /> mycheftogo2016@gmail.com
             </p>
